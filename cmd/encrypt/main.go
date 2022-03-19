@@ -46,7 +46,6 @@ func main() {
 	}
 
 	fmt.Println(string(fileBytes))
-	// key := []byte("this is a fancy thing going for the keyit is going to begreat!")
 	correctSizeKey := make([]byte, 32)
 
 	for i := range correctSizeKey {
